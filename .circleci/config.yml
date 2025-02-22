@@ -30,7 +30,6 @@ jobs:
           command: |
             cd bankchurn-api 
             railway up --service=63defed1-0b48-4b13-8a9e-76ebb71a34c0
-            railway up --detach
 
 
 tags_only: &tags_only
