@@ -28,7 +28,8 @@ jobs:
       - run:
           name: Deploy to Railway App
           command: |
-            cd bankchurn-api 
+            cd bankchurn-api
+            railway link -p 85f66235-ddf1-4605-bb3d-33bbc55a6975 -s 63defed1-0b48-4b13-8a9e-76ebb71a34c0 
             railway up --service=adequate-forgiveness
             railway up --detach
 
